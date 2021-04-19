@@ -119,7 +119,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.7b
+  bundleVersion: 20210419
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -686,7 +686,10 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: OBI_ONI_SUPPORTED
+    4: OBI_ONI_SUPPORTED
+    7: OBI_ONI_SUPPORTED
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

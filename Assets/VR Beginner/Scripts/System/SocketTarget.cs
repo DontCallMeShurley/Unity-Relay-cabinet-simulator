@@ -26,24 +26,35 @@ public class SocketTarget : MonoBehaviour
     public void SelectedSwitch(XRBaseInteractor interactor)
     {
         var socketInteractor = interactor as XRExclusiveSocketInteractor;
-        
-        if(socketInteractor == null)
+        var interactable = GetComponent<XRBaseInteractable>();
+       
+        if (socketInteractor == null)
             return;
 
-        if(SocketType != socketInteractor.AcceptedType)
+        if (SocketType != socketInteractor.AcceptedType)
+        {
+
             return;
+        }
 
         if (DisableSocketOnSocketed)
         {
+           
             //TODO : find a better way, delay feel very wrong
             StartCoroutine(DisableSocketDelayed(socketInteractor));
         }
-
+       
         SocketedEvent.Invoke(interactor);
+        
+        var VW_CheckedWires = GameObject.Find("WiresChecked").GetComponent<VW_CheckedWires>();
+        var UI_TextSocket = typeof(VW_CheckedWires).GetField(interactor.gameObject.name);
+        if (UI_TextSocket != null)
+            UI_TextSocket.SetValue(VW_CheckedWires, interactable.gameObject.name);
     }
 
     IEnumerator DisableSocketDelayed(XRExclusiveSocketInteractor interactor)
     {
+   
         yield return new WaitForSeconds(0.5f);
         interactor.socketActive = false;
     }
