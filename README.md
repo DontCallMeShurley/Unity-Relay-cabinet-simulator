@@ -1,4 +1,4 @@
-# VR-Igrids
+# Relay cabinet simulator
 ![GitHub all releases](https://img.shields.io/github/downloads/DontCallMeShurley/VR-Igrids/total?style=plastic)
 
 This project is designed for the Oculus Rift and Rift S. It's made using Unity 2019.3.1f1 and HDRP 7.2.0.
