@@ -1,5 +1,5 @@
 # VR-Igrids
-![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/DontCallMeShurley/VR-Igrids/master?style=plastic)
+[![GitHub license](https://img.shields.io/github/license/DontCallMeShurley/VR-Igrids)](https://github.com/DontCallMeShurley/VR-Igrids)
 
 Educational VR simulator for training electricians when working with relay protection cabinets
 Stack:
