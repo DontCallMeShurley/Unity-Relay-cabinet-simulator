@@ -1,0 +1,493 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CauldronEffects" Collapsed="true">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAABAKAAAAAAAAAAAAABCAAAABQACAAACIAACAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\CauldronEffects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContactSoundPlayer" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAEgAAAAAAAAAAAIAAAEAAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\ContactSoundPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EmissionChange" Collapsed="true">
+    <Position X="29.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAABAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\EmissionChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FanRotation" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAAAAAAEEAAACAAAAAAABAAAEAAABAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\FanRotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FireDestruction" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\FireDestruction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LaserPointer" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\LaserPointer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleVelocitySender" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGEAAAAAAAAAIAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\ParticleVelocitySender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionOutline" Collapsed="true">
+    <Position X="27.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEABACAAAAAAAAIAgAAAAAAAAEAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\SelectionOutline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SFXPlayer" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAEAAAAABCAgAgAFQAQAAAAAAAQAAAAAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\SFXPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShakeObject" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAECAAAAAAAAAAEAAAAAAAAAAAAAAAAEAACgAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\ShakeObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeleporterAnim" Collapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJQAAAADACAAAAAAAAAAgBAgAAAAAAAAAAAACgAEAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\TeleporterAnim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerAnimationEvent" Collapsed="true">
+    <Position X="26" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Effects\TriggerAnimationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CauldronContent" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQAQCAiAAIAAAAAGBKAgAAIQACIQEQAAAAIEAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\CauldronContent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CauldronIngredient" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\CauldronIngredient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndingSequence" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAgBACAAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\EndingSequence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HandPrefab" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\HandPrefab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hourglass" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAkAAAACAAAAAABAAAAAAEAAAAAAAAAAIAAAAAAAE=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\Hourglass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndestructableObj" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\IndestructableObj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagicBallProjectile" Collapsed="true">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAIAAggAACAIAIAAAAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\MagicBallProjectile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagicReceiver" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAQAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\MagicReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagicTractorBeam" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYABAAAAKEAAACAAAEAAAgAgAAABAEAQAAAAAOAIAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\MagicTractorBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MasterController" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZDAECAACAALAAIEgAoRAgIAAAAQkBIQABAAAEIiEI=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\MasterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectLauncher" Collapsed="true">
+    <Position X="29.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAQAAAAgBAAAAAAQQAQAQAEAAAAAAACAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\ObjectLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectileBase" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\ObjectLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectSpawner" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAACAAAAIAAgEAAAAAEAAAEAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\ObjectSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Potion" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQDAAAAQCIAAAAIEQCACgAgEAAAAFEICACEAAJACgA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\Potion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PotionReceiver" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAACAAAAAAAAhAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\PotionReceiver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PotionSpawner" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAAAAAAAAIAAAAAABAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\PotionSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Radio" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACQBAAACAAACEAAAAAAQAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\Radio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RespawnableObject" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAAAAAIABAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\RespawnableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StationaryOnPull" Collapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\StationaryOnPull.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WatchScript" Collapsed="true">
+    <Position X="27.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAgAAAAQAgAAEQAAQAAQgACAgBAAIIQgAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\WatchScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WitchHouseUIHook" Collapsed="true">
+    <Position X="29.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAIAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\WitchHouseUIHook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WoodenLogBehaviour" Collapsed="true">
+    <Position X="17.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACABACAAAAAIAAAAAAAAAAABAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\WoodenLogBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XRExclusiveSocketInteractor" Collapsed="true">
+    <Position X="19" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAoAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Gameplay\XRExclusiveSocketInteractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivateRotatingInteractor" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAABAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\ActivateRotatingInteractor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlignmentTrigger" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\AlignmentTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationTrigger" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAEAAUA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\AnimationTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCCanvas" Collapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\CCCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCDatabase" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAABAAQA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\CCDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCManager" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAAGAAAJAAAgAAQgAAIAAAAAAIQAAAAAAAAFA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\CCManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCSource" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBAAAAAADAAAAAAEAIAAQAIAAQIAAAIAAAAgAAAGAE=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\CCSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugController" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAIAAQAAAAAIAAgEABEAAAAAAAACAAAACA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\DebugController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DisableInteractable" Collapsed="true">
+    <Position X="27.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\DisableInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractableLayerChange" Collapsed="true">
+    <Position X="29.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAgAAEAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\InteractableLayerChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AxisDragInteractable" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABgAAABCJATCIAAAAAAAAAAEAAAAEAYIQAABAgABA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\Interactables\AxisDragInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ButtonInteractable" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEBiIAAQAAAAABAAKAQAAAAAAAAAAAAAAgIAE=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\Interactables\ButtonInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialInteractable" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAALAEgABCIABCAEAAAAEAIEACAAAAACAIBgGBIjEAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\Interactables\DialInteractable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XROffsetGrabbable" Collapsed="true">
+    <Position X="20.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAgAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\Interactables\XROffsetGrabbable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InteractorEventDispatcher" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\InteractorEventDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookAt" Collapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\LookAt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SetCenterOfMass" Collapsed="true">
+    <Position X="29.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAABAAAAAAgAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\SetCenterOfMass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SocketTarget" Collapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAABAAABAAAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\SocketTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XRReleaseController" Collapsed="true">
+    <Position X="22.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAIAAAAAAAABAAARAAQABECAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\System\XRReleaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FuseBox" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAEAAAAAQA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Tutorial\FuseBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectActivator" Collapsed="true">
+    <Position X="27.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAABAAAAAAAAAAgQAABAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\VR Beginner\Scripts\Tutorial\ObjectActivator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tubbler2" Collapsed="true">
+    <Position X="21.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAABAAAAAAAAAAAAAAAAgAAAAAAAAACA=</HashCode>
+      <FileName>Assets\scripts\tubbler2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VW_CheckedWires" Collapsed="true">
+    <Position X="23" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAARBACAAIAIAAAAAAAAAAAAQAAAAAAARAA=</HashCode>
+      <FileName>Assets\scripts\VW_CheckedWires.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Btn_Down" Collapsed="true">
+    <Position X="26.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Btn_Down.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Btn_Up" Collapsed="true">
+    <Position X="28.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Btn_Up.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="def_data" Collapsed="true">
+    <Position X="30" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\def_data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PanelUI" Collapsed="true">
+    <Position X="26.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAGAAAAAAAAAAAAAAAAAAAAARAAAAAAAAACA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\PanelUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reset_scrpt" Collapsed="true">
+    <Position X="28.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Reset_scrpt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tubbler" Collapsed="true">
+    <Position X="28.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Tblr\tubbler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vkl" Collapsed="true">
+    <Position X="30" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Tblr\Vkl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="test" Collapsed="true">
+    <Position X="30" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAIAAAAAAAAAAAAAABAAAAAAAAAAAACA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\test.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tgl_Act" Collapsed="true">
+    <Position X="26.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\HQ Laptop\igrids UI\Scripts\Tgl_Act.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="33.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Behaviour" Collapsed="true">
+    <Position X="36.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Component" Collapsed="true">
+    <Position X="40.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.Object" Collapsed="true">
+    <Position X="43" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="45.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

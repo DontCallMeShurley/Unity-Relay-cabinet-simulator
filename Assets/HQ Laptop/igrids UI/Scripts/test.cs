@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -36,8 +33,9 @@ public class test : MonoBehaviour
         if (I <= Ito)
         {
 
-            GameObject.Find("YLight").GetComponent<Light>().enabled = false;
-
+            GameObject.Find("RTLight1").GetComponent<Light>().enabled = false;
+            GameObject.Find("RTLight2").GetComponent<Light>().enabled = false;
+            GameObject.Find("RTLight3").GetComponent<Light>().enabled = false;
         }
     }
     void Led()
@@ -52,7 +50,6 @@ public class test : MonoBehaviour
             {
                 GameObject.Find("RTLight1").GetComponent<Light>().enabled = true;
                 GameObject.Find("RTLight2").GetComponent<Light>().enabled = true;
-
             }
             else if ((T1 == 1) & (T3 == 1) & (T2 == 0))
             {
@@ -61,8 +58,6 @@ public class test : MonoBehaviour
             }
             else if ((T2 == 1) & (T3 == 1) & (T1 == 0))
             {
-
-
                 GameObject.Find("RTLight2").GetComponent<Light>().enabled = true;
                 GameObject.Find("RTLight3").GetComponent<Light>().enabled = true;
             }
@@ -75,21 +70,16 @@ public class test : MonoBehaviour
 
             else if ((T1 == 1) & (T2 == 0) & (T3 == 0))
             {
-
                 GameObject.Find("RTLight1").GetComponent<Light>().enabled = true;
-
             }
             else if ((T1 == 0) & (T2 == 1) & (T3 == 0))
             {
                 GameObject.Find("RTLight2").GetComponent<Light>().enabled = true;
-
             }
             else if ((T1 == 0) & (T2 == 0) & (T3 == 1))
             {
                 GameObject.Find("RTLight3").GetComponent<Light>().enabled = true;
             }
         }
-        
-
     }
 }

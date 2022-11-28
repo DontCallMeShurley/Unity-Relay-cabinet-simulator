@@ -10,11 +10,11 @@ public class Reset_scrpt : MonoBehaviour
     {
         if (m_ToggleON.step1 == 1)
         {
-            
-            GameObject.Find("YLight").GetComponent<Light>().enabled = true;
-            GameObject.Find("RTLight1").GetComponent<Light>().enabled = true;
-            GameObject.Find("RTLight2").GetComponent<Light>().enabled = true;
-            GameObject.Find("RTLight3").GetComponent<Light>().enabled = true;
+
+            GameObject.Find("YLightTest").GetComponent<Light>().enabled = true;
+            GameObject.Find("MTZLight1Test").GetComponent<Light>().enabled = true;
+            GameObject.Find("MTZLight2Test").GetComponent<Light>().enabled = true;
+            GameObject.Find("MTZLight3Test").GetComponent<Light>().enabled = true;
             GameObject.Find("MTZLight1_1").GetComponent<Light>().enabled = true;
             GameObject.Find("MTZLight2_1").GetComponent<Light>().enabled = true;
             GameObject.Find("MTZLight3_1").GetComponent<Light>().enabled = true;
@@ -26,10 +26,10 @@ public class Reset_scrpt : MonoBehaviour
     {
         if (m_ToggleON.step1 == 1)
         {
-            GameObject.Find("YLight").GetComponent<Light>().enabled = false;
-            GameObject.Find("RTLight1").GetComponent<Light>().enabled = false;
-            GameObject.Find("RTLight2").GetComponent<Light>().enabled = false;
-            GameObject.Find("RTLight3").GetComponent<Light>().enabled = false;
+            GameObject.Find("YLightTest").GetComponent<Light>().enabled = false;
+            GameObject.Find("MTZLight1Test").GetComponent<Light>().enabled = false;
+            GameObject.Find("MTZLight2Test").GetComponent<Light>().enabled = false;
+            GameObject.Find("MTZLight3Test").GetComponent<Light>().enabled = false;
             GameObject.Find("MTZLight1_1").GetComponent<Light>().enabled = false;
             GameObject.Find("MTZLight2_1").GetComponent<Light>().enabled = false;
             GameObject.Find("MTZLight3_1").GetComponent<Light>().enabled = false;

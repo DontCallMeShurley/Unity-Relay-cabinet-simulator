@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityScript.Steps;
 
 public class tubbler : MonoBehaviour
 {
@@ -35,14 +30,14 @@ public class tubbler : MonoBehaviour
 
             if ((T1 == 1) & (T2 == 1) & (T3 == 0))
             {
-                InputField_Iact = "1,5"; InputField_Kb = "0,05";mtz1 = true; mtz2 = true; mtz3 = false;
+                InputField_Iact = "1,5"; InputField_Kb = "0,05"; mtz1 = true; mtz2 = true; mtz3 = false;
             }
             else if ((T1 == 1) & (T3 == 1) & (T2 == 0))
             {
                 InputField_Iact = "1"; InputField_Kb = "0,05"; mtz1 = true; mtz2 = false; mtz3 = true;
             }
             else if ((T2 == 1) & (T3 == 1) & (T1 == 0))
-            {               
+            {
                 InputField_Iact = "1"; InputField_Kb = "0,5"; mtz1 = false; mtz2 = true; mtz3 = true;
             }
             else if ((T1 == 1) & (T2 == 1) & (T3 == 1))
@@ -52,31 +47,31 @@ public class tubbler : MonoBehaviour
 
             else if ((T1 == 1) & (T2 == 0) & (T3 == 0))
             {
-                
-                InputField_Iact = "2"; InputField_Kb = "0,05"; mtz1 =true; mtz2 = false; mtz3 = false;
+
+                InputField_Iact = "2"; InputField_Kb = "0,05"; mtz1 = true; mtz2 = false; mtz3 = false;
             }
             else if ((T1 == 0) & (T2 == 1) & (T3 == 0))
             {
-               
+
                 InputField_Iact = "1,5"; InputField_Kb = "0,5"; mtz1 = false; mtz2 = true; mtz3 = false;
             }
             else if ((T1 == 0) & (T2 == 0) & (T3 == 1))
             {
-                
+
                 InputField_Iact = "1"; InputField_Kb = "1"; mtz1 = false; mtz2 = false; mtz3 = true;
             }
             else
             {
-                
+
                 InputField_Iact = ""; InputField_Kb = ""; mtz1 = false; mtz2 = false; mtz3 = false;
             }
 
             GameObject.Find("InputField_Iact").GetComponent<InputField>().text = InputField_Iact;
             GameObject.Find("InputField_Kb").GetComponent<InputField>().text = InputField_Kb;
-            GameObject.Find("MTZLight1").GetComponent<Light>().enabled=mtz1;
-            GameObject.Find("MTZLight2").GetComponent<Light>().enabled=mtz2;
-            GameObject.Find("MTZLight3").GetComponent<Light>().enabled=mtz3;
-            }
+            GameObject.Find("MTZLight1").GetComponent<Light>().enabled = mtz1;
+            GameObject.Find("MTZLight2").GetComponent<Light>().enabled = mtz2;
+            GameObject.Find("MTZLight3").GetComponent<Light>().enabled = mtz3;
+        }
         else
         {
             GameObject.Find("MTZLight1").GetComponent<Light>().enabled = false;
